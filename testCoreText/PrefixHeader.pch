@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  testCoreText
+//
+//  Created by 王迎博 on 16/7/20.
+//  Copyright © 2016年 王迎博. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+Extension.h"
+
+//定义打印
+#ifdef DEBUG
+#define YB_Log(...) NSLog(@"打印：\n%s 第%d行 \n %@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
+#else
+#define YB_Log(...)
+#endif
+// 颜色
+#define YBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#endif /* PrefixHeader_pch */
