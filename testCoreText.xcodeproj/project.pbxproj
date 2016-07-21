@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		685971D81D40B135009F241C /* CTFrameParserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 685971D71D40B135009F241C /* CTFrameParserConfig.m */; };
+		685971DB1D40B3F5009F241C /* CTFrameParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 685971DA1D40B3F5009F241C /* CTFrameParser.m */; };
+		685971DE1D40B451009F241C /* CoreTextData.m in Sources */ = {isa = PBXBuildFile; fileRef = 685971DD1D40B451009F241C /* CoreTextData.m */; };
 		68CCC44A1D3F2B7E00CA0F2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCC4491D3F2B7E00CA0F2D /* main.m */; };
 		68CCC44D1D3F2B7E00CA0F2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCC44C1D3F2B7E00CA0F2D /* AppDelegate.m */; };
 		68CCC4501D3F2B7E00CA0F2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CCC44F1D3F2B7E00CA0F2D /* ViewController.m */; };
@@ -37,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		685971D61D40B135009F241C /* CTFrameParserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFrameParserConfig.h; sourceTree = "<group>"; };
+		685971D71D40B135009F241C /* CTFrameParserConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFrameParserConfig.m; sourceTree = "<group>"; };
+		685971D91D40B3F5009F241C /* CTFrameParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFrameParser.h; sourceTree = "<group>"; };
+		685971DA1D40B3F5009F241C /* CTFrameParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFrameParser.m; sourceTree = "<group>"; };
+		685971DC1D40B451009F241C /* CoreTextData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextData.h; sourceTree = "<group>"; };
+		685971DD1D40B451009F241C /* CoreTextData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextData.m; sourceTree = "<group>"; };
 		68CCC4451D3F2B7E00CA0F2D /* testCoreText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCoreText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CCC4491D3F2B7E00CA0F2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68CCC44B1D3F2B7E00CA0F2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -155,6 +164,12 @@
 				68CCC4841D3F36CB00CA0F2D /* Category */,
 				68CCC47C1D3F2CE600CA0F2D /* CTDisplayView.h */,
 				68CCC47D1D3F2CE600CA0F2D /* CTDisplayView.m */,
+				685971D61D40B135009F241C /* CTFrameParserConfig.h */,
+				685971D71D40B135009F241C /* CTFrameParserConfig.m */,
+				685971D91D40B3F5009F241C /* CTFrameParser.h */,
+				685971DA1D40B3F5009F241C /* CTFrameParser.m */,
+				685971DC1D40B451009F241C /* CoreTextData.h */,
+				685971DD1D40B451009F241C /* CoreTextData.m */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -299,10 +314,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				68CCC4871D3F36CB00CA0F2D /* UIView+Extension.m in Sources */,
+				685971DE1D40B451009F241C /* CoreTextData.m in Sources */,
 				68CCC4501D3F2B7E00CA0F2D /* ViewController.m in Sources */,
 				68CCC44D1D3F2B7E00CA0F2D /* AppDelegate.m in Sources */,
 				68CCC47E1D3F2CE600CA0F2D /* CTDisplayView.m in Sources */,
 				68CCC44A1D3F2B7E00CA0F2D /* main.m in Sources */,
+				685971DB1D40B3F5009F241C /* CTFrameParser.m in Sources */,
+				685971D81D40B135009F241C /* CTFrameParserConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +548,7 @@
 				68CCC4741D3F2B7E00CA0F2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68CCC4751D3F2B7E00CA0F2D /* Build configuration list for PBXNativeTarget "testCoreTextTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +557,7 @@
 				68CCC4771D3F2B7E00CA0F2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68CCC4781D3F2B7E00CA0F2D /* Build configuration list for PBXNativeTarget "testCoreTextUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +566,7 @@
 				68CCC47A1D3F2B7E00CA0F2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

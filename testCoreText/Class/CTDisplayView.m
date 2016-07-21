@@ -17,6 +17,13 @@
 {
     [super drawRect:rect];
     
+    //test1
+    [self test1];
+    
+}
+
+
+- (void)test1 {
     //步骤1-得到当前绘制画布的上下文，用于后续将内容绘制在画布上
     CGContextRef context = UIGraphicsGetCurrentContext();
     
@@ -38,8 +45,7 @@
     CFRelease(frame);
     CFRelease(path);
     CFRelease(framesetter);
-    
-}
 
+}
 
 @end
